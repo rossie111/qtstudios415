@@ -24,15 +24,28 @@ h1 {
     margin: 4%;
 }
 
+h1 a:link { 
+	text-decoration: none;
+}
+
+h1 a:visited {
+	text-decoration: none;
+}
+
+h1 a:hover {
+	text-decoration: none;
+}
+
+h1 a:active { 
+	text-decoration: none;
+}
+
+
 #intro {
 	font-size: 40px;
 	margin: 4%;
 	line-height: 110%;
 }
-
-
-
-
 
 h2 {
 	font-size: 50px;
@@ -64,6 +77,23 @@ h2 {
 	scrollbar-width: thin;
   }
 
+.notes {
+	border: dashed;
+	border-radius: 50px;
+	padding: 20px;
+	font-size: 24px;
+	background-color: black;
+	color:  white;
+	box-sizing: border-box;
+	width: 84vw;
+	height: 80vh;
+	margin: 5vh auto 6vh;
+	line-height: 1.1;
+	overflow-y: scroll;
+	scrollbar-color: rebeccapurple green;
+	scrollbar-width: thin;
+  }
+
 
 #details {
 	margin: 0 4% 6%;
@@ -77,6 +107,11 @@ h2 {
 
 img {
 	width:  100%;
+}
+
+iframe {
+	width: 100%;
+	height: 74vh;
 }
 
 .footer {
