@@ -24,9 +24,14 @@ h1 {
     margin: 4%;
 }
 
-h1 a: link {
-	text-decoration: none;
 
+h1 a:link { text-decoration: none; }
+
+h1 a:visited { text-decoration: none; }
+
+h1 a:hover { text-decoration: none; }
+
+h1 a:active { text-decoration: none; }
 }
 
 #intro {
