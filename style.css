@@ -2,6 +2,9 @@
 	
 }
 
+li a:link, a:visited, a:hover, a:active{ 
+	color: hotpink;
+}
 
 body {
 	background-color: white;
