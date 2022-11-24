@@ -30,10 +30,6 @@ h1 a:link, a:visited, a:hover, a:active{
 	color: #000000;
 }
 
-.notes a:link, .notes a:visited, .notes a:hover, .notes a:active {
-	color: hotpink;
-}
-
 #intro {
 	font-size: 40px;
 	margin: 4%;
@@ -52,7 +48,6 @@ h2 {
     margin: 4%;
 }
 
-
 .about {
 	border: dashed;
 	border-radius: 50px;
@@ -68,7 +63,11 @@ h2 {
 	overflow-y: scroll;
 	scrollbar-color: rebeccapurple green;
 	scrollbar-width: thin;
-  }
+}
+
+#space-details {
+	margin: 0 4% 6%;
+}
 
 .notes {
 	border: dashed;
@@ -85,13 +84,11 @@ h2 {
 	overflow-y: scroll;
 	scrollbar-color: rebeccapurple green;
 	scrollbar-width: thin;
-  }
+ }
 
-
-#details {
-	margin: 0 4% 6%;
+.notes a:link, .notes a:visited, .notes a:hover, .notes a:active {
+	color: hotpink;
 }
-
 
 .img {
 	width: 100%;
