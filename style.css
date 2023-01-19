@@ -69,8 +69,13 @@ h2 {
 	margin: 0 4% 6%;
 }
 
-.emphasized{
+.emphasized {
 	font-family:'Anton', sans-serif;
+}
+
+.smaller {
+	font-size: smaller;
+	font-style: italic;
 }
 
 .notes {
