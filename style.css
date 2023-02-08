@@ -59,7 +59,7 @@ h2 {
 
 #join-h2 {
 	text-shadow: none;
-	letter-spacing: none;
+	letter-spacing: 0;
 }
 
 .about {
