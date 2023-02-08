@@ -50,11 +50,16 @@ h2 {
 	text-align: center;
 	text-transform: uppercase;
 	font-family: 'Syne Mono', sans-serif;
-    color: #000000;
-    text-shadow: 6px -5px 15px #FF003D;
-    letter-spacing: -0.3rem;
-    line-height: 90%;
-    margin: 4%;
+  color: #000000;
+  text-shadow: 6px -5px 15px #FF003D;
+  letter-spacing: -0.3rem;
+  line-height: 90%;
+  margin: 4%;
+}
+
+#join-h2 {
+	text-shadow: none;
+	letter-spacing: none;
 }
 
 .about {
