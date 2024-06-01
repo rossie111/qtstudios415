@@ -93,6 +93,15 @@ h2 {
 	font-style: italic;
 }
 
+.meeting-links{
+	margin: 4%;
+	text-align: center;
+}
+
+.meeting-links a:link, .notes a:visited, .notes a:hover, .notes a:active {
+	padding: 10px;
+}
+
 .notes {
 	border: dashed;
 	border-radius: 50px;
