@@ -123,6 +123,10 @@ h2 {
 	color: hotpink;
 }
 
+.attachments {
+	margin: 4%;
+}
+
 .img {
 	width: 100%;
 	margin-bottom: 300px;
