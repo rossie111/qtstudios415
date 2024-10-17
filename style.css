@@ -2,7 +2,10 @@
 	
 }
 
-
+@font-face {
+	font-family: 'Neuropolitical';
+	src: url(assets/fonts/neuropolitical-rg.otf);
+}
 
 body {
 	background-color: white;
@@ -58,6 +61,9 @@ h2 {
 }
 
 #join-h2 {
+	font-family: "Road Rage", sans-serif;
+  	font-weight: 400;
+  	font-style: normal;
 	text-shadow: none;
 	letter-spacing: 0;
 	font-size: 33px;
