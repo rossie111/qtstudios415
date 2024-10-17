@@ -61,9 +61,10 @@ h2 {
 }
 
 #join-h2 {
-	font-family: "Road Rage", sans-serif;
+	font-family: "Neuropolitical", sans-serif;
   	font-weight: 400;
   	font-style: normal;
+	text-transform: none ;
 	text-shadow: none;
 	letter-spacing: 0;
 	font-size: 33px;
