@@ -144,6 +144,47 @@ iframe {
 	height: 52vh;
 }
 
+#form-links {
+	display: flex;
+	justify-content: center;
+	margin: 5rem 0 auto;
+	padding: 0;
+}
+
+#form-links li a{
+	display: inline-block;
+	background: hsl(300, 113%, 88%);
+	border-color: hsl(295, 100%, 72%);
+	border-style: solid;
+	border-width: thin;
+	border-radius: 20px;
+	padding: 10px;
+	margin: 3px;
+	text-decoration: none;
+	font-family: 'Tulpen One', cursive;
+	font-size: 35px;
+	transition: background-color .1s;	
+}
+
+#form-links ul{
+	/* display: none; */
+	list-style: none;
+	margin: 10px;
+	margin-bottom: 35px;
+	padding: 0;
+}
+
+#form-links li {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+#form-links li a:hover{
+	background: hsl(255, 100%, 88%);
+	border-color: hsl(255, 100%, 88%);
+}
+
 .footer {
 	text-align: center;
 	margin-bottom: -15px;
