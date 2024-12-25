@@ -113,7 +113,7 @@ h2 {
 .blog-article {
     border: dashed;
     border-radius: 50px;
-    padding: 20px;
+    padding: 10vh;
     /* font-size: 24px; */
     background-color: white;
     color: hotpink;
@@ -124,11 +124,22 @@ h2 {
     line-height: 1.4; /* Slightly increased for better readability */
 }
 
+#blog-title {
+	font-size: 2.1rem;
+}
+
 .blog-article-text{
 	color: #000000;
+	margin-top: 2.4rem;
 }
 #space-details {
 	margin: 0 4% 6%;
+}
+
+#blog-article-img{
+	display: flex; /* Enable flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
 }
 
 .emphasized {
@@ -267,6 +278,10 @@ h4{
 		z-index: -1;
 		position: relative;
   }
+
+  #blog-article-img img{
+	max-width: 576px ;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -278,5 +293,13 @@ h4{
 	.blog-block {
 		display: block;
 		height: auto;
+	}
+
+	.blog-article {
+		padding: 1vh;
+	}
+
+	#blog-title {
+		font-size: 1.1rem;
 	}
 }
