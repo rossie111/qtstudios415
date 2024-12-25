@@ -110,7 +110,23 @@ h2 {
     flex-grow: 3; /* Occupies more space for text */
 }
 
+.blog-article {
+    border: dashed;
+    border-radius: 50px;
+    padding: 20px;
+    /* font-size: 24px; */
+    background-color: white;
+    color: hotpink;
+    border-color: black;
+    box-sizing: border-box;
+    width: 84vw;
+    margin: 5vh auto 6vh;
+    line-height: 1.4; /* Slightly increased for better readability */
+}
 
+.blog-article-text{
+	color: #000000;
+}
 #space-details {
 	margin: 0 4% 6%;
 }
