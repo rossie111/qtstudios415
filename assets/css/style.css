@@ -80,30 +80,36 @@ h2 {
 }
 
 .blog-block {
-	border: dashed;
-	border-radius: 50px;
-	padding: 20px;
-	font-size: 24px;
-	background-color: white;
-	color:  hotpink;
-	border-color: black;
-	box-sizing: border-box;
-	width: 84vw;
-	height: auto;
-	margin: 5vh auto 6vh;
-	line-height: 1.1;
-	display: flex;
-	align-items: stretch;
+    border: dashed;
+    border-radius: 50px;
+    padding: 20px;
+    font-size: 24px;
+    background-color: white;
+    color: hotpink;
+    border-color: black;
+    box-sizing: border-box;
+    width: 84vw;
+    margin: 5vh auto 6vh;
+    line-height: 1.4; /* Slightly increased for better readability */
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
 }
 
 .blog-img-tile {
-	flex-grow: 1;
-	padding-right: 3%;
+    flex-grow: 1; /* Occupies less space relative to the headline */
+    padding-right: 3%;
 }
 
-.blog-headline-info{
-	flex-grow: 3;
+.blog-img-tile img {
+    max-width: 100%; /* Ensures the image is responsive */
+    height: auto; /* Maintains aspect ratio */
+    display: block; /* Removes inline padding/margins */
 }
+
+.blog-headline-info {
+    flex-grow: 3; /* Occupies more space for text */
+}
+
 
 #space-details {
 	margin: 0 4% 6%;
