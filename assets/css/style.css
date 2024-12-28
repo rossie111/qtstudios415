@@ -61,7 +61,7 @@ h1 a:link, a:visited, a:hover, a:active{
 }
 
 .marquee-content img {
-    width: 150px; /* Adjust image size */
+    width: 100%; /* Adjust image size */
     height: auto; /* Maintain aspect ratio */
     margin: 0 10px; /* Add spacing between images */
     display: block;
