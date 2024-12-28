@@ -47,34 +47,34 @@ h1 a:link, a:visited, a:hover, a:active{
 
 /* Container styling */
 .marquee {
-    width: 100%; /* Full-width container */
-    overflow: hidden; /* Hide overflow for the scrolling effect */
-    background-color: #f4f4f4; /* Optional background */
-    display: flex;
-    align-items: center; /* Center the images vertically */
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
 }
 
-/* Scrolling content */
 .marquee-content {
-    display: flex; /* Arrange images in a row */
-    animation: scroll 15s linear infinite; /* Smooth infinite scrolling */
+    display: inline-block;
+    animation: marquee 50s linear infinite;
 }
+
 
 .marquee-content img {
-    width: 100%; /* Adjust image size */
-    height: auto; /* Maintain aspect ratio */
-    margin: 0 10px; /* Add spacing between images */
-    display: block;
+    height: 400px; /* Adjust height as needed */
+	width: auto;
+    margin: 0 0; /* Space between images */
 }
 
-/* Keyframes for scrolling animation */
-@keyframes scroll {
+
+@keyframes marquee {
     0% {
         transform: translateX(0);
     }
+
     100% {
-        transform: translateX(-100%);
+        transform: translateX(-50%); /* Move left by half the total width */
     }
+
 }
 
 
